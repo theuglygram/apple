@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
+.nav-bar-content{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    max-width: 1024px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    
+  
+    
+}
+.llnks-item{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.llnks-item li{
+    list-style: none;
+}
+.llnks-item li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+div .fa{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+.evaluate{
+    background-color: #0071e3;
+    text-align: center;
+    margin-top: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.evaluate a{
+color: #ffffff;
+text-decoration: none;
+font-size: 14px;
+
+}
+.evaluate a:hover{
+    text-decoration: underline;
+}
+.shop{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+.shop a{
+    text-decoration: none;
+}
+.shop p{
+    color: #000;
+text-decoration: none;
+font-size: 14px;
+}
+
+/* hero styling */
+
+.iphone-12{
+    background-image: url(img/hero-updated.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+   background-position: center;
+}
+.iphone-12{
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.iphone-12-holder h2{
+    font-size: 60px;
+}
+.iphone-12-holder h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.iphone-12-holder a{
+    color: #2997f7;
+    font-size: 20px;
+    text-decoration: none;
+  }
+.iphone-12-holder a:hover{
+    text-decoration: underline;
+   
+}
+.iphone-12-details{
+    margin-top: 100px;
+}
+.iphone-12-details h4{
+    color: #adadad;
+    font-weight: 500;
+}
+
+/* hero 2 */
+.iphone-12-mini{
+    background-image: url(img/hero-updated__2.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: space-between;
+   padding: 40px 0;
+}
+
+.watch{
+    background-color: #000;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+.iphone-12-details img{
+    max-height: 100%;
+    height:400px;
+}
+.series5 h2{
+    color:#ffff;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 50px;
+}
+.series5  h4{
+    color: #d01f2a;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    padding: 0;
+}
+
+.watch-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-img{
+    margin-top: 20px;
+}
+.series5 p{
+    color:#fff;
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 22px;
+}
+.watch_hold{
+    margin: 10px auto;
+}
+
+/* -----------------mini section--------------- */
+.ipad-section-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    width: 100%;
+    height: auto;
+    grid-gap: 20px;
+}
+.img-ip img{
+    max-width: 100%;
+    width: auto;
+}
+.mini-img img{
+    max-width: 100%;
+    width: auto;
+}
+.ipad-air{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    padding: 50px 0;
+}
+.ipad-mini{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    padding: 50px 0;
+}
+.txt-content h2{
+    font-weight: 500;
+    font-size: 45px;
+}
+.txt-content h4{
+    font-weight: 400;
+    font-size: 22px;
+}
+.txt-content p a{
+    text-decoration: none;
+    color: #2997f7;
+}
+.txt-content p a:hover{
+    text-decoration: underline;
+}
+.fall{
+    margin-bottom: 50px;
+}
+.air{
+    margin-top: 20px;
+}
+.coming{
+    color:#ce7a47;
+    margin-bottom: 10px;
+}
+.arcade-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    width: 100%;
+    height: auto;
+    grid-gap: 20px;
+    padding: 10px;
+    margin: 40px 0;
+}
+.arcade-li{
+    background-image: url(img/sponge.jpg);
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.arcade-tv{
+    background-image: url(img/tv_2.jpg);
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.arcade h4{
+    color: #fff;
+   
+}
+.arcade p a{
+    color: #fff;
+   
+}
+.arcade{
+ text-align: center;
+ align-items: center;
+ padding: 20px;
+}
+
+.tv-txt h2, p {
+    color: #ffff;
+}
+.tv-txt p a{
+    color: #ffff;
+}
+.tv-txt h2{
+    font-size: 45px;
+}
+.tv-txt p{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.tv-txt p a .fa{
+    position: absolute;
+    top: 18%;
+    color: white;
+    right: -24%;
+}
+
+.tv-txt a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+
+}
+.tv-txt a:hover{
+    text-decoration: underline;
+} 
+
+.hamburg{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .hamburg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 30px;
+        height: 30px;
+    }
+    .ham{
+        height: 1px;
+        width: 20px;
+        background-color: #f5f5d0;
+        margin: 2px;
+    }
+    .llnks-item{
+        display: none;
+       
+    }
+    .nav-bar-content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 1024px;
+        /*  align-items: center; */
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .iphone-12-holder h2 {
+        font-size: 38px;
+    }
+    .shop{
+        margin: 10px 0;
+    }
+}
